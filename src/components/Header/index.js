@@ -39,6 +39,7 @@ const Header = props => {
             </li>
             <li>
               <button
+                aria-label="Some label"
                 type="button"
                 className="nav-mobile-btn"
                 onClick={onClickLogout}

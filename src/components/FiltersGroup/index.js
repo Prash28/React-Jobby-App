@@ -30,6 +30,7 @@ const FiltersGroup = props => {
           onKeyDown={onEnterSearchInput}
         />
         <button
+          aria-label="Some label"
           type="button"
           id="searchButton"
           className="search-button-container"

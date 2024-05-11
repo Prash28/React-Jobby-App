@@ -221,6 +221,7 @@ class Jobs extends Component {
                   onKeyDown={this.onEnterSearchInput}
                 />
                 <button
+                  aria-label="Some label"
                   type="button"
                   data-testid="searchButton"
                   className="search-button-container-desktop"
